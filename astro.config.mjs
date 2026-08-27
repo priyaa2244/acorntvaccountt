@@ -6,7 +6,7 @@ import starlight from '@astrojs/starlight';
 export default defineConfig({
 	integrations: [
 		starlight({
-			title: 'Sling TV Account Login',
+			title: 'Acorn TV Account Login',
 
 			head: [
 				{
@@ -27,10 +27,10 @@ export default defineConfig({
 
 			sidebar: [
 				{
-					label: 'Sling TV Account Login',
+					label: 'Acorn TV Account Login',
 					items: [
 						{
-							label: 'Sling TV Account Login',
+							label: 'Acorn TV Account Login',
 							slug: 'index',
 						},
 					],
